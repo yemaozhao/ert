@@ -1,0 +1,3 @@
+2017-09-11 22:26:07,470 [Thread-2:4108] [blog.views:16] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-09-12 20:16:23,621 [Thread-2:13664] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-09-12 20:16:59,969 [Thread-2:9588] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'

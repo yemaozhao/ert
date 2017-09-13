@@ -1,0 +1,111 @@
+2017-09-11 22:25:49,871 [Dummy-1:7956] [django.db.backends:91] [utils:execute] [DEBUG]- (0.005) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-11 22:25:49,895 [Dummy-1:7956] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-11 22:25:50,280 [Dummy-1:13456] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-11 22:25:50,283 [Dummy-1:13456] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-11 22:26:07,470 [Thread-2:4108] [blog.views:16] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-09-11 22:26:07,618 [Thread-2:4108] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14969
+2017-09-11 22:26:07,671 [Thread-3:1592] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:07,677 [Thread-4:10128] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:07,706 [Thread-3:1592] [django.server:124] [basehttp:log_message] [WARNING]- "GET /js/nav.js HTTP/1.1" 404 2177
+2017-09-11 22:26:07,707 [Thread-4:10128] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2189
+2017-09-11 22:26:07,713 [Thread-5:12756] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:07,716 [Thread-5:12756] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2189
+2017-09-11 22:26:07,723 [Thread-6:3004] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:07,724 [Thread-6:3004] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2189
+2017-09-11 22:26:07,733 [Thread-7:8144] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:07,736 [Thread-7:8144] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2189
+2017-09-11 22:26:08,115 [Thread-8:9460] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:08,118 [Thread-8:9460] [django.server:124] [basehttp:log_message] [WARNING]- "GET /js/nav.js HTTP/1.1" 404 2177
+2017-09-11 22:26:08,388 [Thread-9:11288] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-11 22:26:08,391 [Thread-9:11288] [django.server:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2183
+2017-09-12 20:16:13,861 [Dummy-1:9760] [django.db.backends:91] [utils:execute] [DEBUG]- (0.009) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-12 20:16:13,888 [Dummy-1:9760] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-12 20:16:23,621 [Thread-2:13664] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-09-12 20:16:23,792 [Thread-2:13664] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '0hzgyxnv73dsgoxsy8rq43doqpmg0koe' AND "django_session"."expire_date" > '2017-09-12 12:16:23.789000'); args=('0hzgyxnv73dsgoxsy8rq43doqpmg0koe', u'2017-09-12 12:16:23.789000')
+2017-09-12 20:16:23,926 [Thread-2:13664] [django.server:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 95725
+2017-09-12 20:16:24,342 [Thread-3:8196] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:16:24,345 [Thread-3:8196] [django.server:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2183
+2017-09-12 20:16:55,464 [Dummy-1:9256] [django.db.backends:91] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-12 20:16:55,483 [Dummy-1:9256] [django.db.backends:91] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-12 20:16:59,969 [Thread-2:9588] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-09-12 20:17:00,084 [Thread-2:9588] [django.server:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14853
+2017-09-12 20:17:00,161 [Thread-3:3676] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,167 [Thread-3:3676] [django.server:124] [basehttp:log_message] [WARNING]- "GET /js/nav.js HTTP/1.1" 404 2177
+2017-09-12 20:17:00,171 [Thread-4:6068] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,174 [Thread-4:6068] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a1.jpg HTTP/1.1" 404 2189
+2017-09-12 20:17:00,181 [Thread-5:14012] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,183 [Thread-5:14012] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a2.jpg HTTP/1.1" 404 2189
+2017-09-12 20:17:00,191 [Thread-6:12240] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,194 [Thread-6:12240] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a3.jpg HTTP/1.1" 404 2189
+2017-09-12 20:17:00,210 [Thread-7:11036] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,213 [Thread-7:11036] [django.server:124] [basehttp:log_message] [WARNING]- "GET /images/a4.jpg HTTP/1.1" 404 2189
+2017-09-12 20:17:00,622 [Thread-8:9724] [django.template:925] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-12 20:17:00,630 [Thread-8:9724] [django.server:124] [basehttp:log_message] [WARNING]- "GET /js/nav.js HTTP/1.1" 404 2177

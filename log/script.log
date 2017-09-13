@@ -1,0 +1,37 @@
+2017-09-11 22:26:07,703 [Thread-3:1592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-11 22:26:07,704 [Thread-4:10128] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-11 22:26:07,714 [Thread-5:12756] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-09-11 22:26:07,724 [Thread-6:3004] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-09-11 22:26:07,734 [Thread-7:8144] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-09-11 22:26:08,118 [Thread-8:9460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-11 22:26:08,390 [Thread-9:11288] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-12 20:16:23,697 [Thread-2:13664] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\python-workspace\ert\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "C:\Python27\lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "C:\Python27\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-09-12 20:16:24,344 [Thread-3:8196] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-12 20:17:00,165 [Thread-3:3676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-12 20:17:00,174 [Thread-4:6068] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-09-12 20:17:00,183 [Thread-5:14012] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-09-12 20:17:00,193 [Thread-6:12240] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-09-12 20:17:00,211 [Thread-7:11036] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-09-12 20:17:00,627 [Thread-8:9724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
