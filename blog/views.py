@@ -6,6 +6,7 @@ from django.conf import settings
 logger = logging.getLogger('blog.views')
 
 # Create your views here.
+# test github
 
 def hello(request):
     return render(request,'hello.html')
