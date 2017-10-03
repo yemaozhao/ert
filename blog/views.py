@@ -7,6 +7,7 @@ logger = logging.getLogger('blog.views')
 
 # Create your views here.
 # test github
+#2017/10/03
 
 def hello(request):
     return render(request,'hello.html')
