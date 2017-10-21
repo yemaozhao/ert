@@ -1,3 +1,42 @@
 2017-09-11 22:26:07,470 [Thread-2:4108] [blog.views:16] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
 2017-09-12 20:16:23,621 [Thread-2:13664] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
 2017-09-12 20:16:59,969 [Thread-2:9588] [blog.views:17] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-03 10:57:44,875 [Thread-2:9512] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-05 12:36:40,885 [Thread-32:12044] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-05 12:36:45,776 [Thread-54:11040] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-05 15:30:19,773 [Thread-61:15088] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-05 16:37:11,881 [Thread-72:12520] [blog.views:19] [views:index] [ERROR]- [Errno 2] No such file or directory: u'ss.txt'
+2017-10-08 17:12:24,134 [Thread-2:8032] [blog.views:35] [views:index] [ERROR]- invalid literal for int() with base 10: 'ty'
+2017-10-08 17:12:48,368 [Thread-2:10900] [blog.views:35] [views:index] [ERROR]- invalid literal for int() with base 10: 'ty'
+2017-10-08 17:13:13,444 [Thread-30:17292] [blog.views:35] [views:index] [ERROR]- invalid literal for int() with base 10: 'ee'
+2017-10-08 17:13:51,421 [Thread-2:13556] [blog.views:35] [views:index] [ERROR]- invalid literal for int() with base 10: ''
+2017-10-08 20:17:52,371 [Thread-2:11008] [blog.views:40] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2017-10-08 20:18:03,328 [Thread-10:11200] [blog.views:40] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2017-10-08 20:22:33,776 [Thread-18:7188] [blog.views:40] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2017-10-08 20:23:07,341 [Thread-2:5748] [blog.views:40] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2017-10-10 19:55:58,407 [Thread-2:6592] [blog.views:41] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2017-10-10 19:56:14,783 [Thread-11:15752] [blog.views:41] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2017-10-10 20:06:37,157 [Thread-2:10116] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:12:48,835 [Thread-2:616] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:13:20,500 [Thread-2:1308] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:23:56,124 [Thread-40:6912] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:23:59,102 [Thread-47:10388] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:24:01,601 [Thread-53:2120] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:24:03,108 [Thread-59:10640] [blog.views:42] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:26:14,785 [Thread-2:12100] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:26:54,517 [Thread-2:10088] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:28:26,780 [Thread-2:14644] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-10 20:56:13,773 [Thread-10:736] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-11 20:37:42,321 [Thread-2:11992] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-11 20:37:50,536 [Thread-10:7028] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-11 20:37:52,502 [Thread-16:9236] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-11 20:52:57,174 [Thread-23:5664] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-10-11 21:28:59,566 [Thread-2:8952] [blog.views:44] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 7-10: ordinal not in range(128)
+2017-10-11 21:30:45,776 [Thread-2:5168] [blog.views:45] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 7-10: ordinal not in range(128)
+2017-10-11 21:30:48,198 [Thread-9:6420] [blog.views:45] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 7-10: ordinal not in range(128)
+2017-10-14 10:49:11,757 [Thread-16:12384] [blog.views:67] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-10-14 10:53:19,510 [Thread-16:17912] [blog.views:71] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-10-14 18:13:10,255 [Thread-23:7436] [blog.views:46] [views:index] [ERROR]- [Errno 22] Invalid argument
+2017-10-15 23:40:43,957 [Thread-23:10760] [blog.views:75] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-10-15 23:55:12,624 [Thread-18:7932] [blog.views:78] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-10-16 00:01:42,168 [Thread-2:2740] [blog.views:39] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)

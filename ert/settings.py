@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog.apps.BlogConfig',
+    # 'blog.apps.BlogConfig',
+    'blog',
+    'blog.templatetags'
 ]
 
 MIDDLEWARE = [
@@ -140,8 +142,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR,  'uploads')
 AUTH_USER_MODEL = 'blog.User'
 
 # 网站基本信息配置
-SITE_NAME = '毛毛的'
+SITE_NAME = '个人博客空间'
 SITE_DESC = '一起摇摆，come on！'
+SITE_URL = 'http://localhost:8000/'
 WEIBO_SINA = 'https://www.baidu.com/'
 WEIBO_TENCENT = 'https://www.baidu.com/'
 PRO_RSS = 'https://www.baidu.com/'
